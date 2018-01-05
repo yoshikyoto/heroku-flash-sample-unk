@@ -1,0 +1,4 @@
+build:
+  languages:
+    - python
+run: gunicorn -b 0.0.0.0:$PORT app.app:app --log-file=-
